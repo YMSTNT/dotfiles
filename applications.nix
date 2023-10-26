@@ -28,7 +28,7 @@ in
     home.packages = with pkgs; [
       brave
       unstable.thunderbird-bin
-      (unstable.discord.override { withOpenASAR = true; withVencord = true; })
+      (unstable.discord.override { withOpenASAR = true; withVencord = false; })
       unstable.revolt-desktop
       onlyoffice-bin
       unstable.obsidian
@@ -43,10 +43,11 @@ in
       openshot-qt
       unstable.lunatask
       unstable.p3x-onenote
+      unstable.freetube
       wineWowPackages.staging
       winetricks
       nix-software-center
-      #hifile
+      unstable.hifile
 
       gnome.gnome-tweaks
       gnome.dconf-editor
@@ -56,7 +57,6 @@ in
       unstable.fragments
       unstable.collision
       unstable.eyedropper
-      unstable.newsflash
       unstable.pika-backup
       unstable.mission-center
       unstable.rnote

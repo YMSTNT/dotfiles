@@ -32,6 +32,7 @@ in
       sshfs
       smartmontools
       yt-dlp
+      thefuck
       unstable.spotdl
       unstable.bitwarden-cli
       unstable.rbw
