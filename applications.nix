@@ -43,7 +43,7 @@ in
       openshot-qt
       unstable.lunatask
       unstable.p3x-onenote
-      unstable.freetube
+      #unstable.freetube
       wineWowPackages.staging
       winetricks
       nix-software-center

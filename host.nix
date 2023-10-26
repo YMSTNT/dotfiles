@@ -101,6 +101,11 @@ in
     "flakes"
   ];
 
+  
+  unstable.nixpkgs.config.permittedInsecurePackages = [
+    "electron-22.3.27"
+  ];
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
