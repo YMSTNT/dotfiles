@@ -138,6 +138,9 @@ in
     powerManagement.enable = true;
   };
 
+  # Wayland fix
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
   home-manager.users.ymstnt = {
     home.stateVersion = config.system.stateVersion;
   };
