@@ -174,6 +174,7 @@ in
           "thunderbird.desktop"
           "discord.desktop"
           "com.raggesilver.BlackBox.desktop"
+          "HiFile.desktop"
           "org.gnome.Nautilus.desktop"
         ];
       };
@@ -215,6 +216,12 @@ in
       };
     };
 
+    qt = {
+      enable = true;
+      platformTheme = "gtk";
+      style.name = "adwaita-dark";
+    };
+
     home.packages = with pkgs; [
       gnomeExtensions.just-perfection
       gnomeExtensions.draw-on-you-screen-2
@@ -224,6 +231,7 @@ in
       unstable.gnomeExtensions.app-hider
       gnomeExtensions.quick-touchpad-toggle
       gnomeExtensions.alttab-scroll-workaround
+      adwaita-qt
     ];
   };
 }
