@@ -15,8 +15,8 @@ in
     home.packages = with pkgs; [
       gcc
       gnumake
-      rustc
-      cargo
+      unstable.rustc
+      unstable.cargo
       python3
       python311Packages.pip
       nodejs
@@ -27,6 +27,7 @@ in
       sqlite
       dbeaver
       unstable.bun
+      unstable.gum
     ];
   };
 }

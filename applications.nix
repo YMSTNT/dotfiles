@@ -27,22 +27,23 @@ in
 
     home.packages = with pkgs; [
       brave
-      unstable.thunderbird-bin
-      (unstable.discord.override { withOpenASAR = true; withVencord = false; })
+      #Electron apps
+      (unstable.discord.override { withOpenASAR = true; withVencord = true; })
       unstable.revolt-desktop
-      onlyoffice-bin
       unstable.obsidian
       unstable.anytype
+      unstable.lunatask
+      unstable.p3x-onenote
+      telegram-desktop
+      onlyoffice-bin
+      unstable.thunderbird-bin
       vlc
       syncthing
       evolution
       cryptomator
       gimp
-      telegram-desktop
       obs-studio
       openshot-qt
-      unstable.lunatask
-      unstable.p3x-onenote
       #unstable.freetube
       wineWowPackages.staging
       winetricks

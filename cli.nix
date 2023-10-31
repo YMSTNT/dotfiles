@@ -36,6 +36,12 @@ in
       unstable.bitwarden-cli
       unstable.rbw
       unstable.bws
+      unstable.gh
+      unstable.codeberg-cli
+      unstable.glab
+      unstable.skate
+      unstable.pop
+      unstable.glow
       rnix-lsp
       nixpkgs-fmt
       nix-prefetch
