@@ -26,7 +26,7 @@ in
     };
 
     home.packages = with pkgs; [
-      unstable.brave
+      brave
       #Electron apps
       (unstable.discord.override { withOpenASAR = true; withVencord = true; })
       unstable.revolt-desktop
