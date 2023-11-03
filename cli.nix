@@ -33,6 +33,7 @@ in
       smartmontools
       yt-dlp
       thefuck
+      unstable.asciiquarium-transparent
       unstable.bitwarden-cli
       unstable.rbw
       unstable.bws

@@ -93,15 +93,13 @@ in
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
-  services.flatpak.enable = true;
-
   nixpkgs.config.allowUnfree = true;
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
   ];
 
-  
+
   unstable.nixpkgs.config.permittedInsecurePackages = [
     "electron-22.3.27"
   ];
