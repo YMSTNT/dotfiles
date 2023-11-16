@@ -9,9 +9,8 @@ in
 
   home-manager.users.ymstnt = {
     home.packages = with pkgs; [
-      prismlauncher
+      unstable.prismlauncher
       piper
-      unstable.collision
     ];
   };
 }

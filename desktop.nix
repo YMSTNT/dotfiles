@@ -159,7 +159,6 @@ in
 
         enabled-extensions = [
           "just-perfection-desktop@just-perfection"
-          "draw-on-your-screen2@zhrexl.github.com"
           "activities-filled-pill@verdre"
           "extensions-sync@elhan.io"
           "caffeine@patapon.info"
@@ -224,7 +223,6 @@ in
 
     home.packages = with pkgs; [
       gnomeExtensions.just-perfection
-      gnomeExtensions.draw-on-you-screen-2
       gnomeExtensions.extensions-sync
       gnomeExtensions.caffeine
       gnomeExtensions.vitals
