@@ -48,6 +48,11 @@ in
       nix-prefetch
     ];
 
+    programs.wezterm = {
+      enable = true;
+      package = unstable.pkgs.wezterm;
+    };
+
     programs.starship = {
       enable = true;
       settings = {
